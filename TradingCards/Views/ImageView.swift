@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct ImageView: View {
+    
+    //Mark: Stored Properties
+    let PlayerName: String
+    let PlayerImage: String
+    
     var body: some View {
         ZStack{
             Rectangle()
                 .foregroundStyle(.gray)
-            Image ("Djokovic")
+        PlayerImage: "Djokovic";
                 .resizable()
                 .scaledToFit()
                 .padding()
@@ -22,7 +27,7 @@ struct ImageView: View {
                     ZStack{
                         Rectangle()
                             .fill(.white)
-                        Text("Novak Djokovic")
+                    PlayerName: " Novak Djokovic"
                             .font(Font.system(size: 35))
                     }
                 }
@@ -34,5 +39,8 @@ struct ImageView: View {
 }
 
 #Preview {
-    ImageView()
+    ImageView(
+        PlayerName: "Novak Djokovic",
+        PlayerImage: "Djokovic"
+    )
 }
