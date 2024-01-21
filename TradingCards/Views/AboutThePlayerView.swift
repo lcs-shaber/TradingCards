@@ -18,7 +18,7 @@ struct AboutThePlayerView: View {
        
         ZStack{
             Rectangle()
-                .foregroundStyle(.pink)
+                .foregroundStyle(.lightPurple)
                 .frame(height: 100)
             
             
@@ -27,6 +27,7 @@ struct AboutThePlayerView: View {
                     Text("Country:")
                         .bold()
                         .font(Font.system(size: 20))
+                        .foregroundColor(Color ("darkPurple"))
                     Text(PlayersCountry)
                 }
                 Spacer()
@@ -37,6 +38,7 @@ struct AboutThePlayerView: View {
                     Text("Ranking:")
                         .bold()
                         .font(Font.system(size: 20))
+                        .foregroundColor(Color ("darkPurple"))
                     Text(PlayersRanking)
                 }
                 
@@ -49,8 +51,10 @@ struct AboutThePlayerView: View {
     HStack{
         Text("Wins:")
             .bold()
-            .font(Font.system(size: 20))
+            .font(Font.system(size: 25))
+            .foregroundColor(Color ("darkPurple"))
         Text(PlayersWins)
+            .font(Font.system(size: 17))
         Spacer()
     }
     .padding(.horizontal)

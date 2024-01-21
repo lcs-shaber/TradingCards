@@ -16,7 +16,7 @@ struct ImageView: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .foregroundStyle(.gray)
+                .foregroundStyle(.darkGray)
             Image(PlayerImage)
                 .resizable()
                 .scaledToFit()
@@ -34,7 +34,7 @@ struct ImageView: View {
                 }
                 Spacer()
             }
-            .border(.gray, width: 5)
+            .border(.darkGray, width: 5)
         }
     }
 }
