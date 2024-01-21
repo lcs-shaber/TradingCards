@@ -31,29 +31,36 @@ struct ContentView: View {
                         .foregroundStyle(.pink)
                         .frame(height: 100)
                     
+                    
                     HStack{
                         VStack{
                             Text("Country:")
+                                .bold()
+                                .font(Font.system(size: 20))
                             Text("........")
                         }
                         Spacer()
+                        
                         // tennis Logo
                         
                         VStack {
                             Text("Ranking:")
+                                .bold()
+                                .font(Font.system(size: 20))
                             Text("........")
                         }
-                        
                         
                     }
                     .padding()
                     
                 }
-                .padding(.vertical)
+                .padding()
                 Spacer()
             
             HStack{
                 Text("Wins:")
+                    .bold()
+                    .font(Font.system(size: 20))
                 Text(".....")
                 Spacer()
             }
