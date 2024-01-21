@@ -45,7 +45,6 @@ struct AboutThePlayerView: View {
             
         }
         .padding()
-        Spacer()
     
     HStack{
         Text("Wins:")
@@ -54,7 +53,7 @@ struct AboutThePlayerView: View {
         Text(PlayersWins)
         Spacer()
     }
-        
+    .padding(.horizontal)
         
         
         

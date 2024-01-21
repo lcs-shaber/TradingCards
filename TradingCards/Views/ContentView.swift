@@ -26,45 +26,11 @@ struct ContentView: View {
             
             Spacer()
             
-                ZStack{
-                    Rectangle()
-                        .foregroundStyle(.pink)
-                        .frame(height: 100)
-                    
-                    
-                    HStack{
-                        VStack{
-                            Text("Country:")
-                                .bold()
-                                .font(Font.system(size: 20))
-                            Text("........")
-                        }
-                        Spacer()
-                        
-                        // tennis Logo
-                        
-                        VStack {
-                            Text("Ranking:")
-                                .bold()
-                                .font(Font.system(size: 20))
-                            Text("........")
-                        }
-                        
-                    }
-                    .padding()
-                    
-                }
-                .padding()
-                Spacer()
-            
-            HStack{
-                Text("Wins:")
-                    .bold()
-                    .font(Font.system(size: 20))
-                Text(".....")
-                Spacer()
-            }
-            .padding(.horizontal)
+            AboutThePlayerView(
+                PlayersCountry: "Serbia",
+                PlayersRanking: "world No. 1 in singles",
+                PlayersWins: "98 singles titles"
+            )
             
             Rectangle()
                 .fill(.gray)
