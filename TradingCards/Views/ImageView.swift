@@ -11,13 +11,13 @@ struct ImageView: View {
     
     //Mark: Stored Properties
     let PlayerName: String
-    let PlayerImage: String
+    let PlayerImage: Image
     
     var body: some View {
         ZStack{
             Rectangle()
                 .foregroundStyle(.gray)
-        PlayerImage: "Djokovic";
+            Image(PlayerImage)
                 .resizable()
                 .scaledToFit()
                 .padding()
@@ -27,8 +27,9 @@ struct ImageView: View {
                     ZStack{
                         Rectangle()
                             .fill(.white)
-                    PlayerName: " Novak Djokovic"
-                            .font(Font.system(size: 35))
+                        Text(PlayerName)
+                        .font(Font.system(size: 35))
+                            
                     }
                 }
                 Spacer()

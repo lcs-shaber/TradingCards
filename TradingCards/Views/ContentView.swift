@@ -17,7 +17,10 @@ struct ContentView: View {
             }
             .padding()
             
-            ImageView()
+            ImageView(
+                PlayerName: "Novak Djokovic",
+                PlayerImage: "Djokovic"
+            )
             
             
         }
