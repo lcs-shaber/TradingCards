@@ -11,7 +11,7 @@ struct ImageView: View {
     
     //Mark: Stored Properties
     let PlayerName: String
-    let PlayerImage: Image
+    let PlayerImage: String
     
     var body: some View {
         ZStack{
