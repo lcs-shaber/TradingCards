@@ -30,9 +30,22 @@ struct AboutThePlayerView: View {
                         .foregroundColor(Color ("darkPurple"))
                     Text(PlayersCountry)
                 }
-                Spacer()
+                
                 
                 // tennis Logo
+                ZStack{
+                    Circle()
+                        .fill(.darkPurple)
+                    
+                    Image ("tennisLogo")
+                        .resizable()
+                        .scaledToFit()
+                        .mask(Circle())
+                }
+                    
+                    
+                    
+                
                 
                 VStack {
                     Text("Ranking:")

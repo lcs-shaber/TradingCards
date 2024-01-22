@@ -27,12 +27,10 @@ struct ImageView: View {
                 
             
             VStack {
-                HStack {
-                    Spacer()
                     ZStack{
                         Rectangle()
                             .fill(.white)
-                            .frame(width: 160, height: 70)
+                            .frame(height: 70)
                             .border(Color.darkGray, width: 3)
                         
                         Text(PlayerName)
@@ -41,7 +39,7 @@ struct ImageView: View {
                         .bold()
                             
                     }
-                }
+                
                 Spacer()
             }
             )

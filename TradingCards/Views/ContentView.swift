@@ -24,6 +24,7 @@ struct ContentView: View {
                     
                     Spacer()
                 }
+                
                 .padding(.horizontal)
                 
                 HStack{
@@ -32,15 +33,16 @@ struct ContentView: View {
                         .foregroundColor(Color ("darkPurple"))
                     Spacer()
                 }
+                .padding(.top)
+                .padding(.leading)
                 
-                .padding()
                 
                 ImageView(
                     PlayerName: "Novak Djokovic",
                     PlayerImage: "Djokovic"
                 )
                 
-                Spacer()
+                
                 
                 AboutThePlayerView(
                     PlayersCountry: "Serbia",
