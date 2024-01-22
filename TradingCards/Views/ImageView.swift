@@ -23,14 +23,12 @@ struct ImageView: View {
                 .resizable()
                 .scaledToFit()
                 .border(Color.darkGray, width: 20)
+                .overlay(
                 
             
             VStack {
                 HStack {
                     Spacer()
-                    Spacer()
-                    Spacer()
-                    
                     ZStack{
                         Rectangle()
                             .fill(.white)
@@ -43,10 +41,10 @@ struct ImageView: View {
                         .bold()
                             
                     }
-                    Spacer()
                 }
                 Spacer()
             }
+            )
             
         }
     }
