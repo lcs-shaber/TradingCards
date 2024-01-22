@@ -18,7 +18,7 @@ struct AboutThePlayerView: View {
        
         ZStack{
             Rectangle()
-                .foregroundStyle(.lightPurple)
+                .foregroundStyle(.lightPink)
                 .frame(height: 100)
             
             
