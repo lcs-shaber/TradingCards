@@ -17,6 +17,16 @@ struct ContentView: View {
             VStack {
                 
                 HStack{
+                    Image (systemName: "chevron.left")
+                        .foregroundColor(.lightPurple)
+                    Text("Back")
+                        .foregroundColor(.lightPurple)
+                    
+                    Spacer()
+                }
+                .padding(.horizontal)
+                
+                HStack{
                     Text("TENNIS")
                         .font(Font.system(size: 40))
                         .foregroundColor(Color ("darkPurple"))
@@ -45,7 +55,7 @@ struct ContentView: View {
                     .padding(.bottom)
                 
                 Rectangle()
-                    .fill(.darkPurple)
+                    .fill(.lightPurple)
                     .ignoresSafeArea()
                     .frame(height: 70)
                 

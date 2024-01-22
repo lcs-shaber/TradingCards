@@ -30,8 +30,6 @@ struct ImageView: View {
                     Spacer()
                     Spacer()
                     Spacer()
-                    Spacer()
-                    Spacer()
                     
                     ZStack{
                         Rectangle()
