@@ -29,7 +29,6 @@ struct ContentView: View {
                     PlayerName: "Novak Djokovic",
                     PlayerImage: "Djokovic"
                 )
-                .padding(.horizontal)
                 
                 Spacer()
                 

@@ -14,27 +14,42 @@ struct ImageView: View {
     let PlayerImage: String
     
     var body: some View {
-        ZStack{
-            Rectangle()
-                .foregroundStyle(.darkGray)
+        
+        ZStack {
+            Color ("Beige")
+           .ignoresSafeArea()
+            
             Image(PlayerImage)
                 .resizable()
                 .scaledToFit()
-                .padding()
-            VStack{
-                HStack{
+                .border(Color.darkGray, width: 20)
+                
+            
+            VStack {
+                HStack {
                     Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    
                     ZStack{
                         Rectangle()
                             .fill(.white)
+                            .frame(width: 160, height: 70)
+                            .border(Color.darkGray, width: 3)
+                        
                         Text(PlayerName)
-                        .font(Font.system(size: 35))
+                        .font(Font.system(size: 20))
+                        .font(.system(.title, design: .rounded))
+                        .bold()
                             
                     }
+                    Spacer()
                 }
                 Spacer()
             }
-            .border(.darkGray, width: 5)
+            
         }
     }
 }
