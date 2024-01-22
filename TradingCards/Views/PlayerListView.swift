@@ -10,19 +10,20 @@ import SwiftUI
 struct PlayerListView: View {
     var body: some View {
         
-        VStack{
             
-            HStack{
-                Text("Player Overview:")
-                    .font(.largeTitle)
-                    .bold()
-                    .foregroundColor(.darkPurple)
-                
-                Spacer()
-            }
-            .padding()
+            
             
             NavigationStack{
+                
+                HStack{
+                    Text("Player Overview:")
+                        .font(.largeTitle)
+                        .bold()
+                        .foregroundColor(.darkPurple)
+                    
+                    Spacer()
+                }
+                .padding()
                 List{
                     
                     //First Item
@@ -40,8 +41,11 @@ struct PlayerListView: View {
                     
                     
                 }
+                
             }
-        }
+            .accentColor(.lightPurple)
+            
+        
         
     }
 }
