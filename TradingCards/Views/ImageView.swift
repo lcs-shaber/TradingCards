@@ -30,7 +30,7 @@ struct ImageView: View {
                     ZStack{
                         Rectangle()
                             .fill(.white)
-                            .frame(height: 70)
+                            .frame(height: 50)
                             .border(Color.darkGray, width: 3)
                         
                         Text(PlayerName)
