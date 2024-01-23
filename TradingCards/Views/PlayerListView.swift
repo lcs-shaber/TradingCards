@@ -61,6 +61,30 @@ struct PlayerListView: View {
                     })
                     
                     //Fourth Item
+                    NavigationLink(destination: {
+                        ContentView()
+                    },
+                                   label: {
+                        ListDescription(
+                            PlayerProfilePicture: "Becker",
+                            PlayerProfileName: "Boris Becker"
+                        )
+                    })
+                    
+                    //Fifth Item
+                    NavigationLink(destination: {
+                        ContentView()
+                    },
+                                   label: {
+                        ListDescription(
+                            PlayerProfilePicture: "Federer",
+                            PlayerProfileName: "Roger Federer"
+                        )
+                    })
+                    
+                    //Sixth Item
+                    
+                    
                 }
                 
             }

@@ -22,7 +22,7 @@ struct ListDescription: View {
                 .frame(width: 60)
                 .mask(Circle())
             
-                .padding()
+                .padding(.horizontal)
             
             Text(PlayerProfileName)
             
