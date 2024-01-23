@@ -39,8 +39,28 @@ struct PlayerListView: View {
                     })
                     
                     //Second Item
+                    NavigationLink(destination: {
+                        ContentView()
+                    },
+                                   label: {
+                        ListDescription(
+                            PlayerProfilePicture: "Nadal",
+                            PlayerProfileName: "Rafael Nadal"
+                        )
+                    })
                     
+                    //Third Item
+                    NavigationLink(destination: {
+                        ContentView()
+                    },
+                                   label: {
+                        ListDescription(
+                            PlayerProfilePicture: "Graf",
+                            PlayerProfileName: "Steffi Graf"
+                        )
+                    })
                     
+                    //Fourth Item
                 }
                 
             }
