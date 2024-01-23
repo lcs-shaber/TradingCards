@@ -83,6 +83,27 @@ struct PlayerListView: View {
                     })
                     
                     //Sixth Item
+                    NavigationLink(destination: {
+                        ContentView()
+                    },
+                                   label: {
+                        ListDescription(
+                            PlayerProfilePicture: "Zverev",
+                            PlayerProfileName: "Alexander Zverev"
+                        )
+                    })
+                    
+                    //Seventh Item
+                    NavigationLink(destination: {
+                        ContentView()
+                    },
+                                   label: {
+                        ListDescription(
+                            PlayerProfilePicture: "Alcaraz",
+                            PlayerProfileName: "Carlos Alcaraz"
+                        )
+                    })
+                    
                     
                     
                 }
