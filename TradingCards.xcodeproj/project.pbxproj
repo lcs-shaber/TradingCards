@@ -59,7 +59,6 @@
 		E03745762B5AB5C200F02651 /* TradingCards */ = {
 			isa = PBXGroup;
 			children = (
-				E03745772B5AB5C200F02651 /* TradingCardsApp.swift */,
 				E03745862B5ABCCC00F02651 /* Model */,
 				E03745852B5ABCA900F02651 /* Views */,
 				E037457B2B5AB5C300F02651 /* Assets.xcassets */,
@@ -91,6 +90,7 @@
 		E03745862B5ABCCC00F02651 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E03745772B5AB5C200F02651 /* TradingCardsApp.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
