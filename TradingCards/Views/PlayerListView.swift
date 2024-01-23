@@ -29,7 +29,7 @@ struct PlayerListView: View {
                     
                     //First Item
                     NavigationLink(destination: {
-                        ContentView()
+                        ContentView(player: djokovic)
                     },
                                    label: {
                         ListDescription(
@@ -40,7 +40,7 @@ struct PlayerListView: View {
                     
                     //Second Item
                     NavigationLink(destination: {
-                        RafaelNadal()
+                        ContentView(player: nadal)
                     },
                                    label: {
                         ListDescription(
@@ -51,7 +51,7 @@ struct PlayerListView: View {
                     
                     //Third Item
                     NavigationLink(destination: {
-                        ContentView()
+                        ContentView(player: nadal)
                     },
                                    label: {
                         ListDescription(
@@ -62,7 +62,7 @@ struct PlayerListView: View {
                     
                     //Fourth Item
                     NavigationLink(destination: {
-                        ContentView()
+                        ContentView(player: nadal)
                     },
                                    label: {
                         ListDescription(
@@ -73,7 +73,7 @@ struct PlayerListView: View {
                     
                     //Fifth Item
                     NavigationLink(destination: {
-                        ContentView()
+                        ContentView(player: nadal)
                     },
                                    label: {
                         ListDescription(
@@ -84,7 +84,7 @@ struct PlayerListView: View {
                     
                     //Sixth Item
                     NavigationLink(destination: {
-                        ContentView()
+                        ContentView(player: nadal)
                     },
                                    label: {
                         ListDescription(
@@ -95,7 +95,7 @@ struct PlayerListView: View {
                     
                     //Seventh Item
                     NavigationLink(destination: {
-                        ContentView()
+                        ContentView(player: nadal)
                     },
                                    label: {
                         ListDescription(

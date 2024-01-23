@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let player: TradingCard
+    
     var body: some View {
         
         ZStack {
@@ -27,16 +30,16 @@ struct ContentView: View {
                 
                 
                 ImageView(
-                    PlayerName: "Novak Djokovic",
-                    PlayerImage: "Djokovic"
+                    PlayerName: player.name,
+                    PlayerImage: player.image
                 )
                 
                 
                 
                 AboutThePlayerView(
-                    PlayersCountry: "Serbia",
-                    PlayersRanking: "No. 1 in singles",
-                    PlayersWins: "98 singles titles"
+                    PlayersCountry: player.country,
+                    PlayersRanking: player.ranking,
+                    PlayersWins: player.wins
                 )
                 
                 Rectangle()
@@ -59,6 +62,7 @@ struct ContentView: View {
     }
 }
 
+
 #Preview {
-    ContentView()
+    ContentView(player: nadal)
 }
