@@ -32,3 +32,43 @@ let djokovic = TradingCard(
     ranking: "1 in singles",
     wins: "98 singles titles"
 )
+
+let graf = TradingCard(
+    name: "Steffi Graf",
+    image: "Graf",
+    country: "",
+    ranking: "",
+    wins: ""
+)
+
+let becker = TradingCard(
+    name: "Boris Becker",
+    image: "Becker",
+    country: "",
+    ranking: "",
+    wins: ""
+)
+
+let federer = TradingCard(
+    name: "Roger Federer",
+    image: "Federer",
+    country: "",
+    ranking: "",
+    wins: ""
+)
+
+let zverev = TradingCard(
+    name: "Alexander Zverev",
+    image: "Zverev",
+    country: "",
+    ranking: "",
+    wins: ""
+)
+
+let alcaraz = TradingCard(
+    name: "Carlos Alcaraz",
+    image: "Alcaraz",
+    country: "",
+    ranking: "",
+    wins: ""
+)

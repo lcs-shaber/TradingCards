@@ -51,7 +51,7 @@ struct PlayerListView: View {
                     
                     //Third Item
                     NavigationLink(destination: {
-                        ContentView(player: nadal)
+                        ContentView(player: graf)
                     },
                                    label: {
                         ListDescription(
@@ -62,7 +62,7 @@ struct PlayerListView: View {
                     
                     //Fourth Item
                     NavigationLink(destination: {
-                        ContentView(player: nadal)
+                        ContentView(player: becker)
                     },
                                    label: {
                         ListDescription(
@@ -73,7 +73,7 @@ struct PlayerListView: View {
                     
                     //Fifth Item
                     NavigationLink(destination: {
-                        ContentView(player: nadal)
+                        ContentView(player: federer)
                     },
                                    label: {
                         ListDescription(
@@ -84,7 +84,7 @@ struct PlayerListView: View {
                     
                     //Sixth Item
                     NavigationLink(destination: {
-                        ContentView(player: nadal)
+                        ContentView(player: zverev)
                     },
                                    label: {
                         ListDescription(
@@ -95,7 +95,7 @@ struct PlayerListView: View {
                     
                     //Seventh Item
                     NavigationLink(destination: {
-                        ContentView(player: nadal)
+                        ContentView(player: alcaraz)
                     },
                                    label: {
                         ListDescription(
