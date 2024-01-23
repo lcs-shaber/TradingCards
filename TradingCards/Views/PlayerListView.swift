@@ -24,6 +24,7 @@ struct PlayerListView: View {
                     Spacer()
                 }
                 .padding()
+                
                 List{
                     
                     //First Item
