@@ -40,7 +40,7 @@ struct PlayerListView: View {
                     
                     //Second Item
                     NavigationLink(destination: {
-                        ContentView()
+                        RafaelNadal()
                     },
                                    label: {
                         ListDescription(
