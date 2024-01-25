@@ -24,6 +24,11 @@ struct ContentView: View {
                         .font(Font.system(size: 40))
                         .foregroundColor(Color ("darkPurple"))
                     Spacer()
+                    
+                    FlagView(
+                        playerFlag: player.flag
+                    )
+                    
                 }
                 .padding(.top)
                 .padding(.leading)

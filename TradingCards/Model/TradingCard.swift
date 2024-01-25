@@ -13,6 +13,7 @@ struct TradingCard {
     let country: String
     let ranking: String
     let wins: String
+    let flag: String
     
 }
 
@@ -22,7 +23,8 @@ let nadal = TradingCard(
     image: "Nadal",
     country: "Spain",
     ranking: "446 in singles",
-    wins: "92 ATP titles"
+    wins: "92 ATP titles",
+    flag: "Spain"
 )
 
 let djokovic = TradingCard(
@@ -30,7 +32,8 @@ let djokovic = TradingCard(
     image: "Djokovic",
     country: "Serbia",
     ranking: "1 in singles",
-    wins: "98 ATP titles"
+    wins: "98 ATP titles",
+    flag: "Serbia"
 )
 
 let graf = TradingCard(
@@ -38,7 +41,8 @@ let graf = TradingCard(
     image: "Graf",
     country: "Germany",
     ranking: "Retired in 1999",
-    wins: "107 singles titles"
+    wins: "107 singles titles",
+    flag: "Germany"
 )
 
 let becker = TradingCard(
@@ -46,7 +50,8 @@ let becker = TradingCard(
     image: "Becker",
     country: "Germany",
     ranking: "Retired 1999",
-    wins: "64 titles"
+    wins: "64 titles",
+    flag: "Germany"
 )
 
 let federer = TradingCard(
@@ -54,7 +59,8 @@ let federer = TradingCard(
     image: "Federer",
     country: "Switzerland",
     ranking: "Retired in 2022",
-    wins: "103 ATP titles"
+    wins: "103 ATP titles",
+    flag: "Switzerland"
 )
 
 let zverev = TradingCard(
@@ -62,7 +68,8 @@ let zverev = TradingCard(
     image: "Zverev",
     country: "Germany",
     ranking: "6 in singles",
-    wins: "21 ATP titles"
+    wins: "21 ATP titles",
+    flag: "Germany"
 )
 
 let alcaraz = TradingCard(
@@ -70,5 +77,6 @@ let alcaraz = TradingCard(
     image: "Alcaraz",
     country: "Spain",
     ranking: "2 in singles",
-    wins: "12 ATP titles"
+    wins: "12 ATP titles",
+    flag: "Spain"
 )
