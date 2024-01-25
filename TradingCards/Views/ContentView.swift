@@ -30,16 +30,16 @@ struct ContentView: View {
                 
                 
                 ImageView(
-                    PlayerName: player.name,
-                    PlayerImage: player.image
+                    playerName: player.name,
+                    playerImage: player.image
                 )
                 
                 
                 
                 AboutThePlayerView(
-                    PlayersCountry: player.country,
-                    PlayersRanking: player.ranking,
-                    PlayersWins: player.wins
+                    playersCountry: player.country,
+                    playersRanking: player.ranking,
+                    playersWins: player.wins
                 )
                 
                 Rectangle()

@@ -33,8 +33,8 @@ struct PlayerListView: View {
                     },
                                    label: {
                         ListDescription(
-                            PlayerProfilePicture: "Djokovic",
-                            PlayerProfileName: "Novac Djokovic"
+                            playerProfilePicture: "Djokovic",
+                            playerProfileName: "Novac Djokovic"
                         )
                     })
                     
@@ -44,8 +44,8 @@ struct PlayerListView: View {
                     },
                                    label: {
                         ListDescription(
-                            PlayerProfilePicture: "Nadal",
-                            PlayerProfileName: "Rafael Nadal"
+                            playerProfilePicture: "Nadal",
+                            playerProfileName: "Rafael Nadal"
                         )
                     })
                     
@@ -55,8 +55,8 @@ struct PlayerListView: View {
                     },
                                    label: {
                         ListDescription(
-                            PlayerProfilePicture: "Graf",
-                            PlayerProfileName: "Steffi Graf"
+                            playerProfilePicture: "Graf",
+                            playerProfileName: "Steffi Graf"
                         )
                     })
                     
@@ -66,8 +66,8 @@ struct PlayerListView: View {
                     },
                                    label: {
                         ListDescription(
-                            PlayerProfilePicture: "Becker",
-                            PlayerProfileName: "Boris Becker"
+                            playerProfilePicture: "Becker",
+                            playerProfileName: "Boris Becker"
                         )
                     })
                     
@@ -77,8 +77,8 @@ struct PlayerListView: View {
                     },
                                    label: {
                         ListDescription(
-                            PlayerProfilePicture: "Federer",
-                            PlayerProfileName: "Roger Federer"
+                            playerProfilePicture: "Federer",
+                            playerProfileName: "Roger Federer"
                         )
                     })
                     
@@ -88,8 +88,8 @@ struct PlayerListView: View {
                     },
                                    label: {
                         ListDescription(
-                            PlayerProfilePicture: "Zverev",
-                            PlayerProfileName: "Alexander Zverev"
+                            playerProfilePicture: "Zverev",
+                            playerProfileName: "Alexander Zverev"
                         )
                     })
                     
@@ -99,8 +99,8 @@ struct PlayerListView: View {
                     },
                                    label: {
                         ListDescription(
-                            PlayerProfilePicture: "Alcaraz",
-                            PlayerProfileName: "Carlos Alcaraz"
+                            playerProfilePicture: "Alcaraz",
+                            playerProfileName: "Carlos Alcaraz"
                         )
                     })
                     

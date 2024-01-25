@@ -10,9 +10,9 @@ import SwiftUI
 struct AboutThePlayerView: View {
     
     //Mark: Stored Properties
-    let PlayersCountry: String
-    let PlayersRanking: String
-    let PlayersWins: String
+    let playersCountry: String
+    let playersRanking: String
+    let playersWins: String
     
     var body: some View {
        
@@ -28,7 +28,7 @@ struct AboutThePlayerView: View {
                         .bold()
                         .font(Font.system(size: 20))
                         .foregroundColor(Color ("darkPurple"))
-                    Text(PlayersCountry)
+                    Text(playersCountry)
                 }
                 
                 
@@ -52,7 +52,7 @@ struct AboutThePlayerView: View {
                         .bold()
                         .font(Font.system(size: 20))
                         .foregroundColor(Color ("darkPurple"))
-                    Text(PlayersRanking)
+                    Text(playersRanking)
                 }
                 
             }
@@ -66,7 +66,7 @@ struct AboutThePlayerView: View {
             .bold()
             .font(Font.system(size: 25))
             .foregroundColor(Color ("darkPurple"))
-        Text(PlayersWins)
+        Text(playersWins)
             .font(Font.system(size: 17))
         Spacer()
     }
@@ -80,8 +80,8 @@ struct AboutThePlayerView: View {
 
 #Preview {
     AboutThePlayerView(
-        PlayersCountry: "Serbia",
-        PlayersRanking: "world No. 1 in singles",
-        PlayersWins: "98 singles titles"
+        playersCountry: "Serbia",
+        playersRanking: "world No. 1 in singles",
+        playersWins: "98 singles titles"
     )
 }

@@ -10,8 +10,8 @@ import SwiftUI
 struct ImageView: View {
     
     //Mark: Stored Properties
-    let PlayerName: String
-    let PlayerImage: String
+    let playerName: String
+    let playerImage: String
     
     var body: some View {
         
@@ -19,7 +19,7 @@ struct ImageView: View {
             Color ("Beige")
            .ignoresSafeArea()
             
-            Image(PlayerImage)
+            Image(playerImage)
                 .resizable()
                 .scaledToFit()
                 .border(Color.darkGray, width: 20)
@@ -33,7 +33,7 @@ struct ImageView: View {
                             .frame(height: 50)
                             .border(Color.darkGray, width: 3)
                         
-                        Text(PlayerName)
+                        Text(playerName)
                         .font(Font.system(size: 20))
                         .font(.system(.title, design: .rounded))
                         .bold()
@@ -50,7 +50,7 @@ struct ImageView: View {
 
 #Preview {
     ImageView(
-        PlayerName: "Novak Djokovic",
-        PlayerImage: "Djokovic"
+        playerName: "Novak Djokovic",
+        playerImage: "Djokovic"
     )
 }
