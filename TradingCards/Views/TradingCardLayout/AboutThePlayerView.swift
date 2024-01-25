@@ -17,6 +17,8 @@ struct AboutThePlayerView: View {
     var body: some View {
        
         ZStack{
+            
+//background box
             Rectangle()
                 .foregroundStyle(.lightPink)
                 .frame(height: 100)
@@ -24,6 +26,8 @@ struct AboutThePlayerView: View {
             
             HStack{
                 VStack{
+                    
+        //info
                     Text("Country:")
                         .bold()
                         .font(Font.system(size: 20))
@@ -32,7 +36,7 @@ struct AboutThePlayerView: View {
                 }
                 
                 
-                // tennis Logo
+        // tennis Logo
                 ZStack{
                     Circle()
                         .fill(.darkPurple)
@@ -42,12 +46,11 @@ struct AboutThePlayerView: View {
                         .scaledToFit()
                         .mask(Circle())
                 }
-                    
-                    
-                    
                 
                 
                 VStack {
+                    
+        //info
                     Text("Ranking:")
                         .bold()
                         .font(Font.system(size: 20))
@@ -62,6 +65,8 @@ struct AboutThePlayerView: View {
         .padding()
     
     HStack{
+        
+//info (wins)
         Text("Wins:")
             .bold()
             .font(Font.system(size: 25))

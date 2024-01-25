@@ -13,6 +13,7 @@ struct FlagView: View {
     
     var body: some View {
        
+    //flag
             Image(playerFlag)
                 .resizable()
                 .scaledToFit()

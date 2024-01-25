@@ -16,6 +16,8 @@ struct ListDescription: View {
     var body: some View {
         HStack{
             
+            //profile Picture
+            
             Image(playerProfilePicture)
                 .resizable()
                 .scaledToFit()
@@ -23,6 +25,8 @@ struct ListDescription: View {
                 .mask(Circle())
             
                 .padding(.horizontal)
+            
+            //Name
             
             Text(playerProfileName)
             
