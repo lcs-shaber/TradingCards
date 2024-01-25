@@ -51,7 +51,6 @@ struct ContentView: View {
                     .fill(.darkGray)
                     .frame(height: 30)
                 
-                    .padding(.bottom)
                 
                 Rectangle()
                     .fill(.lightPurple)

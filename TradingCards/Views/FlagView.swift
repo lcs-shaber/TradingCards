@@ -13,11 +13,14 @@ struct FlagView: View {
     
     var body: some View {
        
-        Image(playerFlag)
-            .resizable()
-            .scaledToFit()
-            .frame(width: 80)
-            .padding(.horizontal)
+            Image(playerFlag)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 80)
+                .border(Color.darkPurple, width: 3)
+                .padding(.horizontal)
+        
+        
     }
 }
 
