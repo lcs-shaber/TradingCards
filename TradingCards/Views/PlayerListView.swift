@@ -19,11 +19,13 @@ struct PlayerListView: View {
                     Text("Player Overview:")
                         .font(.largeTitle)
                         .bold()
-                        .foregroundColor(.darkPurple)
+                        .foregroundColor(.lightPurple)
                     
                     Spacer()
                 }
                 .padding()
+                
+                .background(Color.lightPink)
                 
                 List{
                     
