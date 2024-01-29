@@ -10,15 +10,14 @@ import SwiftUI
 struct ListDescription: View {
     
     //Mark: Stored properties
-    let playerProfilePicture: String
-    let playerProfileName: String
+    let player: TradingCard
     
     var body: some View {
         HStack{
             
             //profile Picture
             
-            Image(playerProfilePicture)
+            Image(player.image)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 60)
@@ -28,7 +27,7 @@ struct ListDescription: View {
             
             //Name
             
-            Text(playerProfileName)
+            Text(player.name)
             
             Spacer()
             
@@ -37,8 +36,6 @@ struct ListDescription: View {
 }
 
 #Preview {
-    ListDescription(
-        playerProfilePicture: "Djokovic",
-        playerProfileName: "Novak Djokovic"
+    ListDescription(player: nadal
     )
 }

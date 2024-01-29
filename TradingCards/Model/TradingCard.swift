@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct TradingCard {
+struct TradingCard: Identifiable {
+    let id = UUID()
     let name: String
     let image: String
     let country: String
@@ -80,3 +81,13 @@ let alcaraz = TradingCard(
     wins: "12 ATP titles",
     flag: "Spain"
 )
+
+let allPlayers = [
+nadal,
+alcaraz,
+zverev,
+graf,
+becker,
+federer,
+djokovic
+]
